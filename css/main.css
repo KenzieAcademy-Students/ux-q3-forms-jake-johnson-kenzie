@@ -32,7 +32,6 @@ body {
 }
 
 .registration__img {
-  height: 80vw;
   object-fit: cover;
 }
 .registration__form {
@@ -74,9 +73,6 @@ body {
   font-size: 1rem;
   border-radius: 1rem;
 }
-select:disabled {
-  background: gray;
-}
 
 @media only screen and (min-width: 768px) {
   body {
@@ -90,9 +86,6 @@ select:disabled {
   .registration__form,
   .registration__img {
     width: 50%;
-  }
-  .registration__img {
-    height: 50vmax;
   }
 
   .registration__form {

@@ -27,7 +27,43 @@
   </head>
 
   <body>
-    Form
-    <!-- Your html here -->
+    <div class="registration">
+      <img
+        src="./images/bg-heading-03.jpg"
+        alt="Register Image"
+        class="registration__img"
+      />
+      <form action="" class="registration__form">
+        <h2 class="registration__title">Registration Info</h2>
+        <input
+          name="name"
+          type="text"
+          class="registration__input"
+          placeholder="Name"
+          required
+        />
+        <input name="birthday" type="date" class="registration__input" />
+        <select name="experience" id="experience" class="registration__input">
+          <option value="" disabled selected>Experience</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <input
+          name="email"
+          type="email"
+          class="registration__input"
+          placeholder="Email"
+          required
+        />
+        <input
+          name="phone"
+          type="tel"
+          class="registration__input"
+          placeholder="Phone (Optional)"
+        />
+        <button type="submit" class="registration__btn">Submit</button>
+      </form>
+    </div>
   </body>
 </html>

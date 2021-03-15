@@ -1,5 +1,6 @@
 /*  Put your CSS Here */
 body {
+  display: flex;
   min-height: 100vh;
   background: -webkit-gradient(
     linear,
